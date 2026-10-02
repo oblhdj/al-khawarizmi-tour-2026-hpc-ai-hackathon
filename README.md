@@ -59,6 +59,22 @@ Create an agent that proposes parameters or experiments for a deterministic Isin
 
 Build a CI-style pipeline that runs correctness tests and benchmarks, compares results with a baseline, flags regressions, and asks an agent to explain likely causes such as allocations, synchronization, loss of vectorization, or communication overhead.
 
+## HPC reading guide
+
+For a structured learning path that applies to all seven project ideas, see:
+
+- [`docs/HPC-READING-GUIDE.md`](docs/HPC-READING-GUIDE.md)
+
+Recommended first-reading sequence:
+
+1. HPC Carpentry foundations
+2. LLNL parallel computing introduction
+3. Roofline model overview
+4. CUDA best-practices memory/performance sections
+5. FlashAttention intro (IO-aware optimization)
+6. mpi4py basics
+7. PyTorch Profiler workflow
+
 ## Best recommendations
 
 - **Best overall:** Agentic GPU Kernel Optimizer
